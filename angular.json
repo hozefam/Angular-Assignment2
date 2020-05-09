@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tshirt-list"
+    }
+  },
+  "defaultProject": "tshirt-list",
+  "cli": {
+    "analytics": false
+  }
 }
