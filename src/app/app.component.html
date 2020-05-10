@@ -41,7 +41,7 @@
                 class="ui middle aligned massive image"
                 (mouseover)="showImage($event, product.bimageUrl)"
                 (mouseout)="showImage($event, product.fimageUrl)"
-                [src]="'assets/images/' + product.fimageUrl"
+                [src]="product.fimageUrl"
                 alt=""
               />
             </h2>

@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   }
 
   showImage(event, imageUrl) {
-    event.target.src = 'assets/images/' + imageUrl;
+    event.target.src = imageUrl;
   }
 
   toggleImage() {
